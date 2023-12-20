@@ -1,11 +1,12 @@
-import Logo from "./Logo.jsx";
 import React from 'react';
+import Logo from './Logo';
 import NavButtons from './NavButtons';
+import '../index.css';
 
 function NavBar() {
     return (
-        <nav>
-            <Logo/>
+        <nav className="navbar">
+            <Logo />
             <NavButtons />
         </nav>
     );

@@ -1,7 +1,47 @@
 body{
   font-family: Arial, sans-serif;
+  margin: 0;
 }
 
 .logo {
   height: 30px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.button {
+  border: 2px solid transparent;
+  background-color: #FFFFFF;
+  font-size: 16px;
+  padding: 5px 10px;
+  font-weight: normal;
+  transition: transform 0.2s, color 0.2s, border 0.2s;
+  color: rgba(13,13,13,0.56);
+  letter-spacing: 0;
+}
+
+.button:first-child {
+  margin-left: 20px;
+}
+
+.button:hover {
+  font-weight: bold;
+  transform: scale(1.05);
+  color: #000000;
+  letter-spacing: 0.5px;
 }

@@ -13,10 +13,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: left;
-  padding: 10px;
-  margin-top: 10px;
-  margin-left: 10px;
-  border-bottom: 1px #a6a6a6;
+  padding: 15px 10px 15px 20px;
+  border-bottom: 1px solid #a6a6a6;
 }
 
 .nav-buttons {
@@ -44,4 +42,12 @@ body {
   transform: scale(1.05);
   color: #000000;
   letter-spacing: 0.5px;
+}
+
+.welcome-text {
+  font-weight: bold;
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  margin-top: 30%;
 }

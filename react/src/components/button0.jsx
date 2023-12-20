@@ -1,10 +1,9 @@
-import React from 'react';
 import '../index.css'
 
-function Button({ label, handleClick }) {
+function Button0({ label, handleClick }) {
     return (
         <button onClick={handleClick} className={'button'}>{label}</button>
     );
 }
 
-export default Button;
+export default Button0;

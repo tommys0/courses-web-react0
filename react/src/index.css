@@ -1,10 +1,12 @@
-body{
+body {
   font-family: Arial, sans-serif;
   margin: 0;
 }
 
 .logo {
   height: 30px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .navbar {
@@ -12,11 +14,9 @@ body{
   align-items: center;
   justify-content: left;
   padding: 10px;
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-bottom: 1px #a6a6a6;
 }
 
 .nav-buttons {
@@ -31,7 +31,7 @@ body{
   padding: 5px 10px;
   font-weight: normal;
   transition: transform 0.2s, color 0.2s, border 0.2s;
-  color: rgba(13,13,13,0.56);
+  color: rgba(13, 13, 13, 0.56);
   letter-spacing: 0;
 }
 

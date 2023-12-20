@@ -1,6 +1,5 @@
-import React from 'react';
-import Logo from './Logo';
-import NavButtons from './NavButtons';
+import Logo from './logo.jsx';
+import NavButtons from './navButtons.jsx';
 import '../index.css';
 
 function NavBar() {

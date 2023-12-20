@@ -1,6 +1,6 @@
-import React from 'react';
-import NavBar from './components/NavBar';
-import './index.css'
+import NavBar from './components/navBar.jsx';
+import './index.css';
+import ChangeSection from "./components/changeSection.jsx";
 
 function App() {
     return (

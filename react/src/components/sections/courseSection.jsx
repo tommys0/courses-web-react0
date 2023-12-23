@@ -6,7 +6,7 @@ import '../../index.css'
 const CourseSection = () => {
     return (
         <>
-            <div className={'courseCard'}>
+            <div className={'courseCardContainer'}>
                 {renderCourseCards(data)}
             </div>
         </>

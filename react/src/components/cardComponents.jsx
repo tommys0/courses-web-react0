@@ -1,16 +1,22 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const CourseCard = ({ course }) => {
+    const handleEnroll = () => {
+        alert(`Enrolled in ${course.name}`);
+    };
+
     return (
         <div className="course-card">
             <h3 className="course-name">
-                {course.name}
+                <p className={'course-name-text'}>Course name</p>
                 {course.isNew && <span className="new-status">New</span>}
             </h3>
+            <p className={'course-name-data'}>{course.name}</p>
             <p className="course-location">Location: {course.location}</p>
             <p className="course-date">Date: {course.date}</p>
-            <button className="enroll-btn">Enroll</button>
-            <p className="speaker-name">Speaker: {course.speaker}</p>
+            <button className="enroll-btn" onClick={handleEnroll}>Enroll</button>
+            <p className="speaker-name"><FontAwesomeIcon icon="fa-solid fa-person"/> Speaker: {course.speaker}</p>
         </div>
     );
 };

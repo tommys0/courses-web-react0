@@ -1,10 +1,12 @@
 import React from 'react';
+import {renderLocationCards} from "../cardComponents.jsx";
+import data from "../data/myData.jsx";
 
 const locationSection = () => {
     return (
         <div>
             <h2>Locations Section</h2>
-            <p>This is the location section.</p>
+            {renderLocationCards(data)}
         </div>
     );
 };

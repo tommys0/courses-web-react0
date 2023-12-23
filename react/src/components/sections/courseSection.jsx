@@ -1,12 +1,16 @@
 import React from 'react';
+import { renderCourseCards } from '../cardComponents.jsx';
+import data from '../data/myData';
+import '../../index.css'
 
-const courseSection = () => {
+const CourseSection = () => {
     return (
-        <div>
-            <h2>Courses Section</h2>
-            <p>This is the Locations section.</p>
-        </div>
+        <>
+            <div className={'courseCard'}>
+                {renderCourseCards(data)}
+            </div>
+        </>
     );
 };
 
-export default courseSection;
+export default CourseSection;

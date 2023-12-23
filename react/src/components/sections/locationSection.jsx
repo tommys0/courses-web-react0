@@ -4,7 +4,7 @@ const locationSection = () => {
     return (
         <div>
             <h2>Locations Section</h2>
-            <p>This is the Locations section.</p>
+            <p>This is the location section.</p>
         </div>
     );
 };

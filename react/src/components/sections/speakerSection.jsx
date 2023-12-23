@@ -4,7 +4,7 @@ const speakerSection = () => {
     return (
         <div>
             <h2>Speakers Section</h2>
-            <p>This is the Locations section.</p>
+            <p>This is the speaker section.</p>
         </div>
     );
 };

@@ -6,7 +6,7 @@ const speakerSection = () => {
     return (
         <div>
             <h2>Speakers Section</h2>
-
+            {renderSpeakerCards(data)}
         </div>
     );
 };

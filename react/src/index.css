@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
 
@@ -20,6 +20,13 @@ body {
 .nav-buttons {
   display: flex;
   gap: 15px;
+}
+
+.active-section {
+  font-weight: bold;
+  transform: scale(1.05);
+  color: #000000;
+  letter-spacing: 0.5px;
 }
 
 .button {
@@ -52,39 +59,54 @@ body {
   margin-top: 30%;
 }
 
-.courseCard {
-  margin-top: 20px;
+.course-name-text {
+  font-weight: lighter;
+}
+
+.course-name-data {
+  font-weight: bold;
+}
+
+.courseCardContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 20px;
 }
 
 .course-card {
   background-color: #fff;
+  max-width: 400px;
+  min-width: 230px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  padding: 20px;
+  padding: 10px 20px 10px 20px;
   width: calc(33.33% - 20px);
   box-sizing: border-box;
 }
 
-.course-name {
-  margin-bottom: 10px;
-  font-size: 1.2em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+@media screen and (max-width: 768px) {
+  .course-card {
+    width: calc(50% - 20px);
+  }
 }
 
 .new-status {
   background-color: #b9b9b9;
-  color: #fff;
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-size: 0.8em;
+  color: #000000;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-size: 0.7em;
+}
+
+.course-name {
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-size: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .enroll-btn {
@@ -102,5 +124,6 @@ body {
 .course-date,
 .speaker-name {
   margin-bottom: 8px;
-  font-size: 0.9em;
+  font-size: 0.7em;
+  color: #a6a6a6;
 }

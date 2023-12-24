@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
 }
 
@@ -145,4 +145,24 @@ body {
   padding: 10px 20px 10px 20px;
   width: calc(33.33% - 20px);
   box-sizing: border-box;
+}
+
+.welcome-section {
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.welcome-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.welcome-section p {
+  font-size: 18px;
+  color: #666;
 }

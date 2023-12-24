@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const CourseCard = ({ course }) => {
     const handleEnroll = () => {
-        alert(`Enrolled in ${course.name}`);
+        alert(`This course is about ${course.name}`);
     };
 
     return (

@@ -4,8 +4,7 @@ import data from "../data/myData.jsx";
 
 const speakerSection = () => {
     return (
-        <div>
-            <h2>Speakers Section</h2>
+        <div className={'speakerCardContainer'}>
             {renderSpeakerCards(data)}
         </div>
     );

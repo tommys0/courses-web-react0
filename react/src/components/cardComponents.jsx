@@ -23,7 +23,7 @@ const CourseCard = ({ course }) => {
 
 const SpeakerCard = ({ speaker, courses }) => {
     return (
-        <div className="card">
+        <div className="speaker-card">
             <h3>{speaker}</h3>
             <p>Courses: {courses.join(', ')}</p>
         </div>

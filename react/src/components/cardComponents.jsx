@@ -32,7 +32,7 @@ const SpeakerCard = ({ speaker, courses }) => {
 
 const LocationCard = ({ location, courses }) => {
     return (
-        <div className="card">
+        <div className="location-card">
             <h3>{location}</h3>
             <p>Courses: {courses.join(', ')}</p>
         </div>

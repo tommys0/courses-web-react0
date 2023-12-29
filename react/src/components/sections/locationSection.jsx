@@ -4,8 +4,7 @@ import data from "../data/myData.jsx";
 
 const locationSection = () => {
     return (
-        <div>
-            <h2>Locations Section</h2>
+        <div className={'locationCardContainer'}>
             {renderLocationCards(data)}
         </div>
     );

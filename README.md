@@ -9,7 +9,7 @@ This repository contains my optional homework assignment for a React-based websi
 
 ### Additional Features Implemented:
 - **Dynamic Content Changes:** Added functionality to change sections on the main page by clicking buttons in the navbar.
-- **Custom Speaker and Location Cards:** Incorporated custom cards displaying speakers and locations where courses are conducted.
+- **Custom Speaker and Location Cards:** Added custom cards displaying speakers and locations.
   
 ### Implemented Functions for Rendering Cards:
 - **Course Cards:** Render course details and an "Enroll" button triggering an alert with the course name.
